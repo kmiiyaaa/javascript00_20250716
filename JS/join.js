@@ -3,6 +3,7 @@
 function checkJoin() {
   //checkjoin대신 내가 하고싶은거 입력해도 가능
   if (document.joinForm.memberid.value == "") {
+    //if (document.getElementById.value == "") {  --- id값 파일에 지정해서 하기 (id="") , 책도보기
     alert("아이디는 필수 입력사항입니다. 확인 후 다시 입력하세요.");
     document.joinForm.memberid.focus(); // 해당 input폼으로 커서 이동
     return false;
